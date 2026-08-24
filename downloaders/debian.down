@@ -1,0 +1,4 @@
+DISTRO=debian
+VERSION=curl -sL https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/ | grep -oP '(?<=href=")[^"]+' | tail -n1 | sed 's/\.iso//'
+DOWNLOAD=https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/version.iso
+SAVEAS=debian.iso
