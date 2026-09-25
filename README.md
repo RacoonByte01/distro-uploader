@@ -19,13 +19,13 @@ Clone the repository and install the required dependencies:
 git clone git@github.com:RacoonByte01/distro-uploader.git
 ```
 
-# Supported Distributions
+# Tested Distributions
 
 - Arch Linux
 - Debian
 
 # TODO
 
-- [ ] Verify downloaded files using checksums when available.
+- [x] Verify downloaded files using checksums when available.
 - [ ] Resume interrupted downloads.
 - [ ] Resume interrupted downloads.

@@ -1,4 +1,6 @@
 DISTRO=archlinux
 VERSION=curl -sL https://archlinux.org/download/ | grep -oP 'Magnet link for \K[0-9]{4}\.[0-9]{2}\.[0-9]{2}'
 DOWNLOAD=https://fastly.mirror.pkgbuild.com/iso/version/archlinux-x86_64.iso
-SAVEAS=archlinux.iso
+SAVEAS=isos/archlinux.iso
+CHEKSUM=curl -sL https://archlinux.org/iso/2026.09.01/sha256sums.txt | grep archlinux-x86_64.iso | sed 's/  archlinux-x86_64.iso//'
+CHEKSUM_TYPE=sha256sum
